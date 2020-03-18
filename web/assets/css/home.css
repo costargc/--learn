@@ -1,0 +1,21 @@
+#image {
+    width: 500px;
+    clip: rect(auto,auto,auto,auto);
+
+    object-position: center; /* Center the image within the element */
+}
+
+.imageclipleft {
+    object-fit: cover;
+    object-position: 110% 0;
+    width: 250px;
+    height: 250px;
+
+}
+
+.imageclipright {
+    object-fit: cover;
+    object-position: -10% 0;
+    width: 250px;
+    height: 250px;
+}

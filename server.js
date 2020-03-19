@@ -14,9 +14,20 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get("/*", function (req, res) {
+app.get("/", function (req, res) {
     // console.log(__dirname);
-    res.sendFile(path.join(__dirname, "web", "home.html"));
+    res.sendFile(path.join(__dirname, "web", "hiragana.html"));
+});
+
+
+app.get("/hiragana/*", function (req, res) {
+    // console.log(__dirname);
+    res.sendFile(path.join(__dirname, "web", "hiragana.html"));
+});
+
+app.get("/katakana/*", function (req, res) {
+    // console.log(__dirname);
+    res.sendFile(path.join(__dirname, "web", "katakana.html"));
 });
 
 // app.get("/*", function (req, res) {

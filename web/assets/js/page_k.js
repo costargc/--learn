@@ -2,16 +2,16 @@ $(document).ready(function () {
 
     // var myanswer = "";
     filename = [
-        "1.png", "2.png", "3.png", "4.png", "5.jpg",
-        "6.png", "7.png", "8.png", "9.png", "10.png",
+        "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg",
+        "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg",
         "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg",
         "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg",
-        "21.jpg", "22.jpg", "23.jpg", "24.png", "25.jpg",
-        "26.png", "27.jpg", "28.jpg", "29.jpg", "30.png",
+        "21.jpg", "22.jpg", "23.jpg", "24.jpg", "25.jpg",
+        "26.jpg", "27.jpg", "28.jpg", "29.jpg", "30.jpg",
         "31.jpg", "32.jpg", "33.jpg", "34.jpg", "35.jpg",
-        "36.jpg", "37.png", "38.jpg",
-        "39.png", "40.jpg", "41.jpg", "42.jpg", "43.jpg",
-        "44.png", "45.jpg", "46.jpg"];
+        "36.jpg", "37.jpg", "38.jpg",
+        "39.jpg", "40.jpg", "41.jpg", "42.jpg", "43.jpg",
+        "44.jpg", "45.jpg", "46.jpg"];
 
     romanji = [
         "a", "i", "u", "e", "o",
@@ -133,7 +133,7 @@ function gamesetup() {
 
     // select image
     randomimage = Math.floor(Math.random() * (romanji.length));
-    $('#puzzlejp').attr("src", "/hiragana/" + filename[randomimage]);
+    $('#puzzlejp').attr("src", "/katakana/" + filename[randomimage]);
     myanswer = romanji[randomimage];
     // console.log(filename[randomimage]);
     // console.log(randomimage);

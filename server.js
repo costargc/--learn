@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.get("/", function (req, res) {
     // console.log(__dirname);
-    res.sendFile(path.join(__dirname, "web", "hiragana.html"));
+    res.sendFile(path.join(__dirname, "web", "home.html"));
 });
 
 

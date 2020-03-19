@@ -14,15 +14,15 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get("/", function (req, res) {
+app.get("/*", function (req, res) {
     // console.log(__dirname);
     res.sendFile(path.join(__dirname, "web", "home.html"));
 });
 
-app.get("/*", function (req, res) {
-    // console.log(__dirname);
-    res.sendFile(path.join(__dirname, "web", "fail.html"));
-});
+// app.get("/*", function (req, res) {
+//     // console.log(__dirname);
+//     res.sendFile(path.join(__dirname, "web", "fail.html"));
+// });
 
 // Routes
 // app.use("/", apiRoutes);

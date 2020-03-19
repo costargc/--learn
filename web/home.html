@@ -32,6 +32,20 @@
         </div>
     </div>
 
+    <div class="container" style="max-width: 500px">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h5 style="color: green; text-align: left;float:left; font-size: 20px">Win: <span id="scorewin">0</span>
+                </h5>
+                <h5 style="color: orange; text-align: right;float: right; font-size: 20px">Loss: <span
+                        id="scoreloss">0</span></h5>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+
     <div class="container">
         <div class="row justify-content-center">
             <img id="puzzlejp" class="imageclipright" src="/hiragana/4.png" alt="a">
@@ -40,26 +54,39 @@
 
         <div class="row justify-content-center">
 
-            <button id="showtip" type="button" class="btn btn-primary">Show Tip</button>
+            <button id="showtip" type="button" class="btn custom-button-gray">Show Tip</button>
 
-            <button id="skipbutton" type="button" class="btn btn-danger">Skip</button>
+            <!-- <button id="skipbutton" type="button" class="btn custom-button-red">Skip</button> -->
 
         </div>
-        <br>
 
-        <div class="row justify-content-center">
-            <div class="col-6">
 
+        <!-- <div class="row justify-content-center" style="margin-top:50px">
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
                 <div class="input-group input-group-lg">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-lg">Type romanji here</span>
+                        <span class="input-group-text" id="inputGroup-sizing-lg">Type romanji</span>
                     </div>
                     <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
                 </div>
             </div>
 
-        </div>
+            <div class="col-md-4"></div>
 
+        </div> -->
+
+        <div class="row justify-content-center" style="margin-top:50px; ">
+            <button id="ans1" type="button" class="btn custom-button-orange"
+                style="margin:10px; width: 50px; height: 50px">so</button>
+            <button id="ans2" type="button" class="btn custom-button-orange"
+                style="margin:10px; width: 50px; height: 50px">wo</button>
+            <button id="ans3" type="button" class="btn custom-button-orange"
+                style="margin:10px; width: 50px; height: 50px">tsu</button>
+            <button id="ans4" type="button" class="btn custom-button-orange"
+                style="margin:10px; width: 50px; height: 50px">da</button>
+        </div>
     </div>
 
 

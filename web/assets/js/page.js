@@ -11,7 +11,9 @@ $(document).ready(function () {
         "31.jpg", "32.jpg", "33.jpg", "34.jpg", "35.jpg",
         "36.jpg", "37.png", "38.jpg",
         "39.png", "40.jpg", "41.jpg", "42.jpg", "43.jpg",
-        "44.png", "45.jpg", "46.jpg"];
+        "44.png", "45.jpg", "46.jpg",
+        "47.jpg", "48.jpg", "49.jpg", "50.jpg", "51.jpg",
+        "52.jpg", "53.jpg", "54.jpg", "55.jpg", "56.jpg"];
 
     romanji = [
         "a", "i", "u", "e", "o",
@@ -23,7 +25,9 @@ $(document).ready(function () {
         "ma", "mi", "mu", "me", "mo",
         "ya", "yu", "yo",
         "ra", "ri", "ru", "re", "ro",
-        "wa", "wo", "n"];
+        "wa", "wo", "n",
+        "ga", "gi", "gu", "ge", "go",
+        "za", "ji", "zu", "ze", "zo"];
 
     selected = [];
     var loop;
